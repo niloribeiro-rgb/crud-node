@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Cdastro de alunos</h1>
+
+    <form id="formAluno">
+        <input type="hidden" id="id">
+
+        <input type="text" id="nome" placeholder="Nome aluno" required>
+        <input type="text" id="curso" placeholder="curso" required>
+        <input type="number" id="idade" placeholder="Idade" required>
+
+        <button type="submit">Salvar</button>
+    </form>
+
+    <h2>Alunos cadastrados</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>nome</th>
+                <th>curso</th>
+                <th>idade</th>
+                <th>açãoes</th>
+            </tr>
+        </thead>
+
+        <tbody id="listaAlunos"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
