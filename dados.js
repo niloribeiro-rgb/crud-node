@@ -1,6 +1,6 @@
 let alunos = [
     {
-        id:1,
+        id: 1,
         nome: "maria",
         curso: "Desenvolvimento de sitemas",
         idade: 17,
